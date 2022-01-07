@@ -1,5 +1,6 @@
 {
   "name": "bike-object",
+  "homepage": "https://integralgreen.net/bike-system",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
