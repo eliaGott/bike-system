@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+#bikesTableSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.newBike {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.bikeDisplay {
+  justify-self: flex-start;
+  display: grid;
+}
+
+.bikeDisplay .imgTmbn img {
+  width: 100px;
+  height: auto;
+}
+
+.flagsIcons img {
+  width: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.bikeDisplay th {
+  border: black 1px solid;
+  font-weight: normal;
+}
+
+tr.tableHeader th {
+  font-weight: bold;
+}
+
+.toStatusLink img {
+  width: 30px;
+}
+.drpdwn-content {
+  position: absolute;
+  border: black solid 1px;
+
+  display: none;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}

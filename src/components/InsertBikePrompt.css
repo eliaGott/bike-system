@@ -1,0 +1,15 @@
+.inputBikeForm {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.inputAtInsert {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-bottom: 10px;
+}
+
+.inputAtInsert {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}

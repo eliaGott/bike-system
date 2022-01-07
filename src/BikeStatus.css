@@ -1,0 +1,107 @@
+.backButton {
+  margin-left: 1em;
+}
+
+.backButton img {
+  width: 30px;
+}
+.gridStatusContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.statusRow > div {
+  background-color: beige;
+  margin: 1em;
+}
+.statusRow {
+  display: grid;
+  grid-template-columns: 25% 45% 10% 20%;
+}
+
+.bikePart * {
+  margin: 0.2em;
+}
+
+.bikePart .statusTitles {
+  margin-bottom: 1em;
+}
+
+.bikePart .statusDescriptions {
+  font-style: italic;
+}
+
+.statusHeader {
+  display: flex;
+}
+
+.statusHeader > div > div > div,
+.statusHeader span {
+  padding: 0.3em 0.5em;
+  border: black 1px solid;
+}
+
+.statusHeader .wColumns {
+  display: inline-block;
+  padding-right: 1em;
+  width: 10rem;
+}
+
+.statusHeader .headerImg {
+  max-height: 150px;
+  margin-left: 1em;
+  border: black 1px solid;
+  border-radius: 10px;
+}
+
+.moreInfo div {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.infoLine {
+  height: 2em;
+}
+
+.flagIcons {
+  display: inline-block;
+  height: 20px;
+}
+.flagLine img {
+  display: inline;
+  width: 20px;
+  margin: auto;
+}
+
+.flagButtonContainer {
+  display: inline-block;
+  padding: 0px !important;
+  margin-top: -10px !important;
+  border: none !important;
+  height: 25px;
+}
+
+.drpdwn-content {
+  margin-left: 0px !important;
+}
+
+.flagButtonContainer button {
+  height: 30px;
+  margin-top: 6px;
+}
+
+.qrCode {
+  margin-right: 15px;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .statusRow {
+    grid-template-columns: 50%;
+  }
+  .bikePart,
+  .statusComment {
+    grid-column: 1/3;
+  }
+}

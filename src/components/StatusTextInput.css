@@ -1,0 +1,11 @@
+textarea {
+  width: 95%;
+  height: 70px;
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+
+.saveButton {
+  float: right;
+  margin-right: 5%;
+}

@@ -1,0 +1,9 @@
+.drpdwn-content {
+  position: absolute;
+  border: black solid 1px;
+
+  display: none;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
